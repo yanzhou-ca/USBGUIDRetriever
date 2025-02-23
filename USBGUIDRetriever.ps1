@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-Enterprise USB GUID Manager - Enhanced Edition
+Enterprise USB GUID Retriever - Enhanced Edition
 
 .DESCRIPTION
 PowerShell GUI with automatic GUID loading and multi-drive support
@@ -17,7 +17,7 @@ if ($ExecutionPolicy -notin "RemoteSigned", "Unrestricted") {
     exit 1
 }
 
-$LogPath = "$env:ProgramData\USBGUIDManager\logs"
+$LogPath = "$env:ProgramData\USBGUIDRetriever\logs"
 $LogFile = "$LogPath\activity.log"
 if (-not (Test-Path $LogPath)) { New-Item -Path $LogPath -ItemType Directory -Force | Out-Null }
 #endregion
