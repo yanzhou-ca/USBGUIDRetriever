@@ -9,7 +9,7 @@
 - 📋 Copy GUIDs to clipboard with one click  
 - 🔄 Multi-drive support with dropdown selection  
 - ⚡ Automatic loading of first detected drive's GUID  
-- 📂 Activity logging to `ProgramData\USBGUIDManager\logs`  
+- 📂 Activity logging to `ProgramData\USBGUIDRetriever\logs`  
 
 ---
 
@@ -23,7 +23,7 @@
 **Usage**  
 1. Run as Administrator:  
    ```powershell
-   .\USBGUIDManager.ps1
+   .\USBGUIDRetriever.ps1
    ```
 2. Insert USB drive(s)  
 3. Interface components:  
