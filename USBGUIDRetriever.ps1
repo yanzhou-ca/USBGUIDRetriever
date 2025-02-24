@@ -22,7 +22,7 @@ $LogFile = "$LogPath\activity.log"
 if (-not (Test-Path $LogPath)) { New-Item -Path $LogPath -ItemType Directory -Force | Out-Null }
 #endregion
 
-#region UI Configuration (Unchanged)
+#region UI Configuration
 class Theme {
     static [hashtable] $Current = @{
         Primary    = [System.Drawing.Color]::FromArgb(63, 81, 181)
@@ -36,7 +36,7 @@ class Theme {
 }
 
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "USB GUID Manager Pro"
+$form.Text = "USB GUID Retriever"
 $form.Size = New-Object System.Drawing.Size(420, 170)
 $form.MinimumSize = New-Object System.Drawing.Size(400, 170)
 $form.MaximumSize = New-Object System.Drawing.Size([System.Int32]::MaxValue, 170)
