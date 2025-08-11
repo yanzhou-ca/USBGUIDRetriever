@@ -1,5 +1,5 @@
 **USB GUID Retriever**  
-*A simple PowerShell GUI tool to assist Windows users to retrieve USB drives' GUID info*
+*A simple PowerShell GUI tool to assist Windows users to retrieve USB drives' GUID info* 
 ![Screenshoot](https://raw.githubusercontent.com/yanzhou-ca/USBGUIDRetriever/refs/heads/main/Screenshot.png "USB GUID Retriever")
 ---
 
